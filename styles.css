@@ -1,0 +1,45 @@
+body {
+  background-color: #D35D6E  ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px ;
+  color: blanchedalmond;
+  }
+  canvas {
+  border: dashed #ffffff 1px;
+  }
+  div {
+  margin-bottom: 15px;
+  }
+  button {
+  font-size: 20px;
+  margin-right: 10px;
+  min-width: 37px;
+  border: solid #ffffff 1px;
+  border-radius: 10px;
+  padding: 5px;
+  background: #D35D6E;
+  color: #ffffff;
+  }
+  #rijec {
+  margin: 10px 10px;
+  padding: 20px;
+  letter-spacing: 5px;
+  border: dashed #ffffff 3px;
+  border-radius: 10px;
+  }
+  .slovo {
+  color: #ffffff;
+  background-color: #D35D6E;
+  cursor: pointer;
+  }
+  .izabranoslovo {
+  color: #D35D6E;
+  background-color: #ffffff;
+  cursor: not-allowed;
+  }
+  .izabranoslovo:disabled {
+  cursor: not allowed;
+  }
